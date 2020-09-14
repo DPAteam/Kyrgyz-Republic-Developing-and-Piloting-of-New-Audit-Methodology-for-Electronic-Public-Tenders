@@ -12,7 +12,7 @@ A model data-driven and risk-based eProcurement audit methodology is developed b
 ### Project status:
 Fully deployed
 
-## Problem statement
+## Context and problem statement
 Several countries including the Kyrgyz Republic in the EBRD region have introduced eProcurement as part of their public procurement and anti-corruption reform agendas. The introduction of eProcurement requires revision to the approach to monitoring and audit of procurement procedures, to fit new regulatory structures and legal and institutional frameworks incorporated in the eProcurement system.
 
 Auditing procurement procedures conducted electronically requires a distinctly different approach from auditing manual, paper-based public procurement process, so the following list of tasks was formulated in order to meet the purposes of the assignment:
@@ -24,6 +24,17 @@ Auditing procurement procedures conducted electronically requires a distinctly d
 Therefore, introducing audit procedures for eProcurement tenders requires a careful analysis of the special characteristics of eProcurement procedures that may have an impact on audit procedures, followed by the development of special standards and a designated methodology that takes into consideration the particular features of electronic public procurement tenders.
 
 Several mainly Latin American countries have successfully developed and implemented eProcurement audit.  However as EBRD countries have no direct access to their international best practice and experience, a Technical Cooperation (TC) project was developed by the EBRD to **design a new audit methodology** for digitally conducted public procurements that is suitable for EBRD countries, to **develop online tools for auditors** to implement this methodology and to **pilot the methodology and IT tools in selected EBRD countries of operations**, the first one being the Kyrgyz Republic. 
+
+## Objectives and vision
+The EBRD TC aimed, together with the Kyrgyz Republic Chamber of Accounts (KR CA), to: 
+-	Design a new model audit methodology for digital public procurement based on OECD guidance and international best practice, and 
+-	Enable data-driven audit of public procurement in the Kyrgyz Republic through a pilot of the new audit methodology with the KR CA.
+
+The EBRD-developed vision to achieve these objectives included the following:
+-	To identify modern audit best practice for electronically conducted procurement;
+-	Develop standards for auditing public procurement conducted electronically and a model methodology for auditing electronic procurement procedures;
+-	Develop a localised version of the model methodology for the KR CA public procurement audit.;
+-	Deployment of an OCDS-based set of analytical online tools for auditors to enable an analysis of public procurement data for audit purposes and to pilot the methodology.
 
 ## Technological solution and implementation
 
