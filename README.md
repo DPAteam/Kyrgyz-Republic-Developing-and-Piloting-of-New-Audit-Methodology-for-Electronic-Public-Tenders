@@ -27,4 +27,13 @@ Several mainly Latin American countries have successfully developed and implemen
 
 ## Technological solution and implementation
 
+## Impact
+- Enables public procurement policymakers to make **data-driven decisions**; 
+- Provides for the **automated generation of public procurement reports**; 
+- Ensures **transparency of public spending**.
+
 ## Leasons learnt
+- **The underlying risk management concept is a key determinant of success of the implementation of the model methodology** – impacting the ability of the users to identify, assess and respond to the risks with the audit by designing and applying appropriate risk-based data analytics and tools; 
+- **Projects should be implemented in several phases**, giving an opportunity for the users of the model methodology to move up through the analytics maturity levels naturally and consistently while providing them with support to grow their capacity at each level; 
+- **A budget for training and outreach should be included** to ensure take-up, proper use and continuous development of the methodology and tools, 
+- **The quality and reliability of data is critical** for the tools that are developed to be able to support auditors in their work.   
