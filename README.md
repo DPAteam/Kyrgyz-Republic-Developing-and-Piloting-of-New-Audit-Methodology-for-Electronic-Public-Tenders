@@ -38,6 +38,21 @@ The EBRD-developed vision to achieve these objectives included the following:
 
 ## Technological solution and implementation
 
+## Results and future expectations
+As a result of the project, the **new audit methodology** for electronic public tenders **was developed and piloted**. The Kyrgyz Republic Chamber of Accounts now has a data-driven audit methodology and the public procurement data analytical infrastructure to support their audits. The methodology and the analytical tools enable a previously impossible level of risk analysis of procurement spending within the country and at various stages of the digital procurements, audit cycle and the eProcurement audit methodology are ready to be implemented in other EBRD countries.
+
+In terms of the goals set for the project, the new audit methodology and analytical tool:
+-	Provide a direction for data analytics application during the digital public procurement audit based on [OECD](https://www.oecd.org) guidance and international best practice;
+-	Enable the state audit institution to conduct the data-driven audit of public procurement transactions.
+
+Deployment of an [OCDS](https://standard.open-contracting.org/latest/en/)-based set of online analytical tools for auditors enables methodology piloting and analysis of public procurement data for audit purposes through:
+-	Providing a risk assessment of the digital procurement transactions in the system – by applying risk-indicators algorithms results calculated by the risk-engine;
+-	Providing a risk assessment of the contracting authorities using the system – by aggregating procurement transactions risk-indicators results in line with the designated methodology;
+-	Enabling the automated generation of auditors’ checklist – the functionality enables adjustment of the checklist for each audit and its’ objectives;
+-	Providing support for audit results evaluation by applying scoring functionality – auditors can use the automated scoring to evaluate audit results gathered in a checklist and support their conclusions. 
+
+Going forward, the impact of the project could be increased by allocating resources and a budget to support the analytical capacity of the auditors to develop a new analytical hypothesis on risk identification and implement them into the digital environment.  The tools and risk indicators now available require a periodic evaluation and need to be assessed for their relevance and effectiveness in a constantly changing environment. The risk information could be used to develop risk responses not just for audit purposes but for policymakers in their decisions across different policy fields.
+
 ## Impact
 - Enables public procurement policymakers to make **data-driven decisions**; 
 - Provides for the **automated generation of public procurement reports**; 
