@@ -42,6 +42,25 @@ In addition, to ensure that the **set of risk indicator is targeting the signifi
 
 ## Technological solution and implementation
 
+A new model audit methodology for digital public procurement based on OECD guidance and international best practice has been developed by the project team. The KR CA, together with the EBRD’s consultants, piloted the adopted methodology for five audits of contracting authorities in the Kyrgyz Republic and the analytical tools to support the application of the methodology and trained 50 auditors for the pilot. The adopted methodology consists of:
+- Methodology for Risk Indicators and Red Flags;
+- Methodology for procurement transaction prioritising by risk;
+- Methodology for contracting authorities prioritisation by risk;
+- Automated scoring methodology description embedded into the audit checklists.
+
+Also, the data-driven application for auditors has been developed in the Kyrgyz Republic through a pilot of the new audit methodology with the KR CA. 
+
+Another EBRD public procurement technical cooperation project implemented a solution which extracts data from the existing eProcurement system in the Kyrgyz Republic and converts it to the OCDS while allowing the legacy solution to continue running unaffected. Once the data has been converted to the OCDS it is consolidated in one database.
+
+The analytical tool for auditors has been designed to access this OCDS database directly through an Application Programming Interface (API). The modules allow users to analyse the eProcurement data for audit purposes in accordance with the methodology and the auditors can analyse the data, using the dedicated UI, by many different combinations of risk. The comparative analysis of public tenders and contracting authorities is available by risk and by their performance. The semi-automated audit checklist, which analyses eProcurement transactions and risk information to support audit execution, has been developed. The overall result is that auditors have direct access to eProcurement transaction information assessed by automated indicators for potential irregularities and risks and can use it throughout the whole audit cycle.
+
+The analytical tool for auditors has been developed using the following fundamental principles:
+
+- Modularity;
+- Openness;
+- Secure access;
+- Interoperability.
+
 ## Results and future expectations
 As a result of the project, the **new audit methodology** for electronic public tenders **was developed and piloted**. The Kyrgyz Republic Chamber of Accounts now has a data-driven audit methodology and the public procurement data analytical infrastructure to support their audits. The methodology and the analytical tools enable a previously impossible level of risk analysis of procurement spending within the country and at various stages of the digital procurements, audit cycle and the eProcurement audit methodology are ready to be implemented in other EBRD countries.
 
