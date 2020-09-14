@@ -3,7 +3,7 @@
 ## Kyrgyz Republic: Developing and Piloting of New Audit Methodology for Electronic Public Tenders
 
 ### Description:
-
+A model data-driven and risk-based eProcurement audit methodology is developed based on the best practices from the experience of Latin America countries, the model methodology is adopted and piloted, a risk engine and data analytics modules are developed in the pilot project.
 
 ### Project timeline:
 
