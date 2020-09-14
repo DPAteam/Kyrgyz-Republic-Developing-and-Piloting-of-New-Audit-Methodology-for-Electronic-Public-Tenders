@@ -36,6 +36,9 @@ The EBRD-developed vision to achieve these objectives included the following:
 -	Develop a localised version of the model methodology for the KR CA public procurement audit.;
 -	Deployment of an OCDS-based set of analytical online tools for auditors to enable an analysis of public procurement data for audit purposes and to pilot the methodology.
 
+Other requirements include: the extraction and then transformation of data **from the existing digital procurement platforms**. Other open government data sources can support more precise analysis. A similar project can be implemented in other jurisdictions building on a wide range (in terms of quality and types of data) of digital procurement platforms and open government data sources. 
+In addition, to ensure that the **set of risk indicator is targeting the significant risks in public procurement**, clear risk management frameworks, strategies and implementation plans according to relevant international standards should be in place.  
+
 ## Technological solution and implementation
 
 ## Results and future expectations
