@@ -239,24 +239,19 @@ public class ConverterImpl implements Converter {
     private boolean isBadQuality(ReleaseDTO releaseDTO) {
         if (isEmpty(releaseDTO.getTender().getLots())) return true;
 
+        if (ACTIVE.equals(releaseDTO.getTender().getStatus())) {
+            boolean hasActiveLots = releaseDTO.getTender().getLots()
+                    .stream()
+                    .anyMatch(lot -> !LOT_GOOD_QUALITY_STATUS_DETAILS.contains(lot.getStatus()));
+
+            if (!hasActiveLots) return true;
+        }
+
         if (SKIPPED_BIDS_TENDER_STATUS_DETAILS.contains(releaseDTO.getTender().getStatusDetails()) &&
                 (isNull(releaseDTO.getBids()) || isEmpty(releaseDTO.getBids().getDetails())))
             return true;
 
-        if (SKIPPED_AWARDS_TENDER_STATUS_DETAILS.contains(releaseDTO.getTender().getStatusDetails()) &&
-                isEmpty(releaseDTO.getAwards()))
-            return true;
-
-        if (ACTIVE.equals(releaseDTO.getTender().getStatus())) {
-            boolean existActiveLot = releaseDTO.getTender().getLots()
-                    .stream()
-                    .anyMatch(lot -> !CANCELLED.equals(lot.getStatus()) &&
-                            !UNSUCCESSFUL.equals(lot.getStatus())
-                    );
-
-            return !existActiveLot;
-        }
-
-        return false;
+        return SKIPPED_AWARDS_TENDER_STATUS_DETAILS.contains(releaseDTO.getTender().getStatusDetails()) &&
+                isEmpty(releaseDTO.getAwards());
     }
 }

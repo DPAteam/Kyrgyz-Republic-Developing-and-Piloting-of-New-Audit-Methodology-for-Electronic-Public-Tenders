@@ -29,4 +29,9 @@ public final class Constants {
             EVALUATION_COMPLETE,
             CONTRACT_SIGNED
     );
+
+    public static final List<String> LOT_GOOD_QUALITY_STATUS_DETAILS = Arrays.asList(
+            CANCELLED,
+            UNSUCCESSFUL
+    );
 }

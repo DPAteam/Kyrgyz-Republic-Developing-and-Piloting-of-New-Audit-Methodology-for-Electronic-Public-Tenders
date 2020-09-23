@@ -52,6 +52,7 @@ public class ReleaseLoader {
             }
 
         } while (true);
+        log.info("All releases downloaded");
     }
 
     private String getLastOffset() {

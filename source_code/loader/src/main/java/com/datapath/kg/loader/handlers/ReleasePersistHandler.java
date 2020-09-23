@@ -4,6 +4,7 @@ import com.datapath.kg.loader.dao.entity.PartyEntity;
 import com.datapath.kg.loader.dao.entity.ReleaseEntity;
 import com.datapath.kg.loader.dao.repository.ReleaseRepository;
 import com.datapath.kg.loader.dao.service.PartyDAOService;
+import com.datapath.kg.loader.dao.service.TenderDAOService;
 import com.datapath.kg.loader.dto.PartyDTO;
 import com.datapath.kg.loader.dto.ReleaseDTO;
 import com.datapath.kg.loader.utils.Converter;
@@ -28,6 +29,8 @@ public class ReleasePersistHandler {
     @Autowired
     private ReleaseRepository releaseRepository;
     @Autowired
+    private TenderDAOService tenderDAOService;
+    @Autowired
     private Converter converter;
 
     @Transactional
@@ -40,48 +43,77 @@ public class ReleasePersistHandler {
         if (nonNull(existedReleaseEntity)) {
             releaseEntity.getTender().setId(existedReleaseEntity.getTender().getId());
 
+            boolean hasSkippedData = false;
+
+            if (!isEmpty(existedReleaseEntity.getTender().getBids())) {
+                if (isEmpty(releaseEntity.getTender().getBids())) {
+                    hasSkippedData = true;
+                }
+            }
+
             if (!isEmpty(existedReleaseEntity.getTender().getLots())) {
-                releaseEntity.getTender().getLots()
-                        .forEach(lot -> {
-                            existedReleaseEntity.getTender().getLots()
-                                    .stream()
-                                    .filter(existed -> existed.getOuterId().equals(lot.getOuterId()))
-                                    .findFirst()
-                                    .ifPresent(existed -> lot.setId(existed.getId()));
-                        });
+                if (isEmpty(releaseEntity.getTender().getLots())) {
+                    hasSkippedData = true;
+                } else {
+                    releaseEntity.getTender().getLots()
+                            .forEach(lot -> {
+                                existedReleaseEntity.getTender().getLots()
+                                        .stream()
+                                        .filter(existed -> existed.getOuterId().equals(lot.getOuterId()))
+                                        .findFirst()
+                                        .ifPresent(existed -> lot.setId(existed.getId()));
+                            });
+                }
             }
 
             if (!isEmpty(existedReleaseEntity.getTender().getContracts())) {
-                releaseEntity.getTender().getContracts()
-                        .forEach(contract -> {
-                            existedReleaseEntity.getTender().getContracts()
-                                    .stream()
-                                    .filter(existed -> existed.getOuterId().equals(contract.getOuterId()))
-                                    .findFirst()
-                                    .ifPresent(existed -> contract.setId(existed.getId()));
-                        });
+                if (isEmpty(releaseEntity.getTender().getContracts())) {
+                    hasSkippedData = true;
+                } else {
+                    releaseEntity.getTender().getContracts()
+                            .forEach(contract -> {
+                                existedReleaseEntity.getTender().getContracts()
+                                        .stream()
+                                        .filter(existed -> existed.getOuterId().equals(contract.getOuterId()))
+                                        .findFirst()
+                                        .ifPresent(existed -> contract.setId(existed.getId()));
+                            });
+                }
             }
 
             if (!isEmpty(existedReleaseEntity.getTender().getAwards())) {
-                releaseEntity.getTender().getAwards()
-                        .forEach(award -> {
-                            existedReleaseEntity.getTender().getAwards()
-                                    .stream()
-                                    .filter(existed -> existed.getOuterId().equals(award.getOuterId()))
-                                    .findFirst()
-                                    .ifPresent(existed -> award.setId(existed.getId()));
-                        });
+                if (isEmpty(releaseEntity.getTender().getAwards())) {
+                    hasSkippedData = true;
+                } else {
+                    releaseEntity.getTender().getAwards()
+                            .forEach(award -> {
+                                existedReleaseEntity.getTender().getAwards()
+                                        .stream()
+                                        .filter(existed -> existed.getOuterId().equals(award.getOuterId()))
+                                        .findFirst()
+                                        .ifPresent(existed -> award.setId(existed.getId()));
+                            });
+                }
             }
 
             if (!isEmpty(existedReleaseEntity.getTender().getItems())) {
-                releaseEntity.getTender().getItems()
-                        .forEach(item -> {
-                            existedReleaseEntity.getTender().getItems()
-                                    .stream()
-                                    .filter(existed -> existed.getOuterId().equals(item.getOuterId()))
-                                    .findFirst()
-                                    .ifPresent(existed -> item.setId(existed.getId()));
-                        });
+                if (isEmpty(releaseEntity.getTender().getItems())) {
+                    hasSkippedData = true;
+                } else {
+                    releaseEntity.getTender().getItems()
+                            .forEach(item -> {
+                                existedReleaseEntity.getTender().getItems()
+                                        .stream()
+                                        .filter(existed -> existed.getOuterId().equals(item.getOuterId()))
+                                        .findFirst()
+                                        .ifPresent(existed -> item.setId(existed.getId()));
+                            });
+                }
+            }
+
+            if (hasSkippedData) {
+                tenderDAOService.markAsBadQuality(existedReleaseEntity.getTender().getId());
+                return;
             }
         }
 
