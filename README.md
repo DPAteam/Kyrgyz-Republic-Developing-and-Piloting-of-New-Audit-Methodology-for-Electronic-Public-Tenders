@@ -13,7 +13,7 @@ A model data-driven and risk-based eProcurement audit methodology is developed b
 Fully deployed
 
 ## Context and problem statement
-Several countries including the Kyrgyz Republic in the EBRD region have introduced eProcurement as part of their public procurement and anti-corruption reform agendas. The introduction of eProcurement requires revision to the approach to monitoring and audit of procurement procedures, to fit new regulatory structures and legal and institutional frameworks incorporated in the eProcurement system.
+Several countries including the Kyrgyz Republic in the [EBRD](https://www.ebrd.com/home) region have introduced eProcurement as part of their public procurement and anti-corruption reform agendas. The introduction of eProcurement requires revision to the approach to monitoring and audit of procurement procedures, to fit new regulatory structures and legal and institutional frameworks incorporated in the eProcurement system.
 
 Auditing procurement procedures conducted electronically requires a distinctly different approach from auditing manual, paper-based public procurement process, so the following list of tasks was formulated in order to meet the purposes of the assignment:
 - A data-driven audit methodology based on indicators must be established;
@@ -23,14 +23,14 @@ Auditing procurement procedures conducted electronically requires a distinctly d
 
 Therefore, introducing audit procedures for eProcurement tenders requires a careful analysis of the special characteristics of eProcurement procedures that may have an impact on audit procedures, followed by the development of special standards and a designated methodology that takes into consideration the particular features of electronic public procurement tenders.
 
-Several mainly Latin American countries have successfully developed and implemented eProcurement audit.  However as EBRD countries have no direct access to their international best practice and experience, a Technical Cooperation (TC) project was developed by the EBRD to **design a new audit methodology** for digitally conducted public procurements that is suitable for EBRD countries, to **develop online tools for auditors** to implement this methodology and to **pilot the methodology and IT tools in selected EBRD countries of operations**, the first one being the Kyrgyz Republic. 
+Several mainly Latin American countries have successfully developed and implemented eProcurement audit.  However as [EBRD](https://www.ebrd.com/home) countries have no direct access to their international best practice and experience, a Technical Cooperation (TC) project was developed by the EBRD to **design a new audit methodology** for digitally conducted public procurements that is suitable for EBRD countries, to **develop online tools for auditors** to implement this methodology and to **pilot the methodology and IT tools in selected EBRD countries of operations**, the first one being the Kyrgyz Republic. 
 
 ## Objectives and vision
 The EBRD TC aimed, together with the [Kyrgyz Republic Chamber of Accounts (KR CA)](https://www.esep.kg/index.php?option=com_content&view=featured&Itemid=131&lang=kg), to: 
 -	Design a new model audit methodology for digital public procurement based on [OECD](https://www.oecd.org) guidance and international best practice, and 
 -	Enable data-driven audit of public procurement in the Kyrgyz Republic through a pilot of the new audit methodology with the [KR CA](https://www.esep.kg/index.php?option=com_content&view=featured&Itemid=131&lang=kg).
 
-The EBRD-developed vision to achieve these objectives included the following:
+The [EBRD](https://www.ebrd.com/home)-developed vision to achieve these objectives included the following:
 -	To identify modern audit best practice for electronically conducted procurement;
 -	Develop standards for auditing public procurement conducted electronically and a model methodology for auditing electronic procurement procedures;
 -	Develop a localised version of the model methodology for the [KR CA](https://www.esep.kg/index.php?option=com_content&view=featured&Itemid=131&lang=kg) public procurement audit.;
@@ -42,7 +42,7 @@ In addition, to ensure that the **set of risk indicator is targeting the signifi
 
 ## Technological solution and implementation
 
-A new model audit methodology for digital public procurement based on [OECD](https://www.oecd.org) guidance and international best practice has been developed by the project team. The [KR CA](https://www.esep.kg/index.php?option=com_content&view=featured&Itemid=131&lang=kg), together with the EBRD’s consultants, piloted the adopted methodology for five audits of contracting authorities in the Kyrgyz Republic and the analytical tools to support the application of the methodology and trained 50 auditors for the pilot. The adopted methodology consists of:
+A new model audit methodology for digital public procurement based on [OECD](https://www.oecd.org) guidance and international best practice has been developed by the project team. The [KR CA](https://www.esep.kg/index.php?option=com_content&view=featured&Itemid=131&lang=kg), together with the [EBRD](https://www.ebrd.com/home)’s consultants, piloted the adopted methodology for five audits of contracting authorities in the Kyrgyz Republic and the analytical tools to support the application of the methodology and trained 50 auditors for the pilot. The adopted methodology consists of:
 - Methodology for Risk Indicators and Red Flags;
 - Methodology for procurement transaction prioritising by risk;
 - Methodology for contracting authorities prioritisation by risk;
@@ -50,7 +50,7 @@ A new model audit methodology for digital public procurement based on [OECD](htt
 
 Also, the data-driven application for auditors has been developed in the Kyrgyz Republic through a pilot of the new audit methodology with the [KR CA](https://www.esep.kg/index.php?option=com_content&view=featured&Itemid=131&lang=kg). 
 
-Another EBRD public procurement technical cooperation project implemented a solution which extracts data from the existing eProcurement system in the Kyrgyz Republic and converts it to the [OCDS](https://standard.open-contracting.org/latest/en/) while allowing the legacy solution to continue running unaffected. Once the data has been converted to the OCDS it is consolidated in one database.
+Another [EBRD](https://www.ebrd.com/home) public procurement technical cooperation project implemented a solution which extracts data from the existing eProcurement system in the Kyrgyz Republic and converts it to the [OCDS](https://standard.open-contracting.org/latest/en/) while allowing the legacy solution to continue running unaffected. Once the data has been converted to the OCDS it is consolidated in one database.
 
 The analytical tool for auditors has been designed to access this OCDS database directly through an [Application Programming Interface (API)](http://ocds.zakupki.gov.kg/api/tendering). The modules allow users to analyse the eProcurement data for audit purposes in accordance with the methodology and the auditors can analyse the data, using the dedicated UI, by many different combinations of risk. The comparative analysis of public tenders and contracting authorities is available by risk and by their performance. The semi-automated audit checklist, which analyses eProcurement transactions and risk information to support audit execution, has been developed. The overall result is that auditors have direct access to eProcurement transaction information assessed by automated indicators for potential irregularities and risks and can use it throughout the whole audit cycle.
 
@@ -62,7 +62,7 @@ The analytical tool for auditors has been developed using the following fundamen
 - Interoperability.
 
 ## Results and future expectations
-As a result of the project, the **new audit methodology** for electronic public tenders **was developed and piloted**. The [Kyrgyz Republic Chamber of Accounts](https://www.esep.kg/index.php?option=com_content&view=featured&Itemid=131&lang=kg) now has a data-driven audit methodology and the public procurement data analytical infrastructure to support their audits. The methodology and the analytical tools enable a previously impossible level of risk analysis of procurement spending within the country and at various stages of the digital procurements, audit cycle and the eProcurement audit methodology are ready to be implemented in other EBRD countries.
+As a result of the project, the **innovative audit methodology** for auditing electronic public tenders **was developed**, covering analytical analysis, procurement risk indicators, checklists and screening methodologies to support data-driven audit process. **Prototype e-audit digital tools** are designed and developed and tailored to the local jurisdiction **piloted** in the Kyrgyz Republic. **The [Kyrgyz Republic Chamber of Accounts](https://www.esep.kg/index.php?option=com_content&view=featured&Itemid=131&lang=kg) switched to the e-audit** of public procurement and is working with new data-driven audit methodology and digital analytical tools to deliver their audits. The pilot demonstrated that an e-audit of public procurement is feasible in the developing country, provided there is a national eProcurement system in place and standardised **public procurement data is accessible in the format of [Open Contracting Data Standard (OCDS)](https://standard.open-contracting.org/latest/en/)**. **Quality of data** from the eProcurement system defines the capabilities of the digital auditing tools, their accuracy and evidence value for auditors and it is significantly **improved with use of [OCDS](https://standard.open-contracting.org/latest/en/)**. New piloted audit **methodology and digital tools could be implemented in other [EBRD](https://www.ebrd.com/home) countries** that operate [OCDS](https://standard.open-contracting.org/latest/en/)-based eProcurement systems once adapted to their legal framework.
 
 In terms of the goals set for the project, the new audit methodology and analytical tool:
 -	Provide a direction for data analytics application during the digital public procurement audit based on [OECD](https://www.oecd.org) guidance and international best practice;
